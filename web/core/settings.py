@@ -60,7 +60,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'youdrink.urls'
+ROOT_URLCONF = 'core.urls'
 
 TEMPLATES = [
     {
