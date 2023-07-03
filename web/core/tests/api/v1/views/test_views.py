@@ -18,7 +18,7 @@ class DeckViewSetTest(TestCase):
     @classmethod
     def setUp(cls) -> None:
         # Create a deck used for testing
-        deck = DeckCreator().create_deck(deck_type="standard")
+        deck = DeckCreator().create_deck(deck_type=="test", name="test deck")
         cls.deck_type = deck.deck_type
 
     
