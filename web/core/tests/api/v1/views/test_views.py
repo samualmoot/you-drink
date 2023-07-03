@@ -19,12 +19,11 @@ class DeckViewSetTest(TestCase):
     def setUp(cls) -> None:
         # Create a deck used for testing
         deck = DeckCreator().create_deck(deck_type="standard")
-        deck.save()
-        cls.deck_type = deck["deck_type"]
+        cls.deck_type = deck.deck_type
 
     
     def test_list(self) -> None:
         pass
 
-    def test_retrieve() -> None:
+    def test_retrieve(self) -> None:
         pass
